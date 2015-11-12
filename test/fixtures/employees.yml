@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  address: MyString
+  phone: MyString
+  rate_of_pay: 9.99
+  user_id: MyString
+  references: MyString
+
+two:
+  name: MyString
+  address: MyString
+  phone: MyString
+  rate_of_pay: 9.99
+  user_id: MyString
+  references: MyString
