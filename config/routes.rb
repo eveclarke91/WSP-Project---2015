@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   
 
           resources :users
-          resources :employees, only: [:create, :show,:edit, :destroy]
+          resources :shifts, only: [:create, :show, :edit, :destroy]
+          resources :employees, only: [:create, :show, :edit, :destroy]
      
           root 'static_pages#home'
 
