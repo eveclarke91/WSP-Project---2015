@@ -11,19 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20151113105404) do
+=======
+ActiveRecord::Schema.define(version: 20151113113403) do
+>>>>>>> user-employees
 
   create_table "employees", force: :cascade do |t|
     t.string   "name"
     t.string   "address"
     t.string   "phone"
     t.decimal  "rate_of_pay"
-    t.string   "user_id"
-    t.string   "references"
+    t.integer  "user_id"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
 
+<<<<<<< HEAD
+=======
+  add_index "employees", ["user_id"], name: "index_employees_on_user_id"
+
+>>>>>>> user-employees
   create_table "shifts", force: :cascade do |t|
     t.time     "start_time"
     t.time     "finish_time"

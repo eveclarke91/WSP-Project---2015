@@ -5,13 +5,11 @@ one:
   address: MyString
   phone: MyString
   rate_of_pay: 9.99
-  user_id: MyString
-  references: MyString
+  user_id: 
 
 two:
   name: MyString
   address: MyString
   phone: MyString
   rate_of_pay: 9.99
-  user_id: MyString
-  references: MyString
+  user_id: 

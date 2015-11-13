@@ -1,6 +1,10 @@
  class User < ActiveRecord::Base
+<<<<<<< HEAD
   has_many :employees, :shifts, dependent: :destroy
 
+=======
+  has_many :employees, dependent: :destroy
+>>>>>>> user-employees
  	attr_accessor :remember_token
  	  before_save { self.email = email.downcase }
       validates :name, presence: true, length: { in: 9..30 }
